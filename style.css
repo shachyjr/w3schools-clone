@@ -12,16 +12,18 @@ h1 {
   color: #555555;
 }
 
-h4 {
-  font-size: 20px;
-  margin-top: 16px;
-  margin-bottom: 10px;
-  line-height: 30px;
-}
-
 h3 {
   margin: 10px 0;
   font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #3a3a3a;
+
+  margin-top: 16px;
+  margin-bottom: 10px; 
 }
 
 h5 {
@@ -131,13 +133,31 @@ footer p {
   margin: 20px 10px;
 }
 
-#webtemp-image {
-  max-width: 100%;
-  object-fit: scale-down;
+#web-temp-image {
+  margin: 30px 0;
 }
 
 #web-cert {
-  background-image: url("https://www.w3schools.com/getcertified.jpg");
+  position: relative;
+  padding: 0;
+  background-color: black;
+}
+
+#overlay-text {
+  padding: 25px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #00000080;
+}
+
+#get-cert-btn {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #get-cert-btn:hover {
@@ -164,6 +184,11 @@ footer p {
 
 #links {
   padding: 15px;
+}
+
+.imp-btn {
+  padding: 12px 24px;
+  font-size: 18px;
 }
 
 .clear-pad {
@@ -281,4 +306,9 @@ footer p {
   This removes strange extra space at the bottom of the page */ 
 .row:not(main) {
   padding-bottom: 30px;
+}
+
+.web-image {
+  width: 100% !important;
+  object-fit: scale-down !important;
 }
