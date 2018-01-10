@@ -33,7 +33,7 @@ h5 {
 
 /* Fixes extra right margin on main element */
 main {
-  margin: 0 !important;
+  margin: 0 -15px !important;
   width: 100% !important;
 }
 
