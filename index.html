@@ -14,95 +14,75 @@
 
 <body>
 	<div class="container-fluid">
-		<div id="intro" class="row">
-			<div class="col-sm-12 col-md-6 clear-pad">
+		<header id="intro" class="row">
+			<div class="col-sm-12 col-lg-6 clear-pad text-center text-lg-left">
 				<img src="http://www.w3schools.com/images/w3schools.png"/>
 			</div>
-      <div class="d-none d-sm-block col-sm-12 col-md-6 float-md-right clear-pad">
+      <div id="slogan" class="d-none d-sm-block col-sm-12 col-lg-6 clear-pad text-sm-center text-lg-right">
 		    	THE WORLD'S LARGEST WEB DEVELOPER SITE
 			</div>
-		</div>
+    </header>
 		
-		<nav class="row navbar">
-      <!-- <ul>
-        <li class="d-none d-md-block col-2">
-            <a class="light-text" href="#tutorials"> TUTORIALS <i class="fa fa-caret-down"></i></a>
-        </li>
-        <li class="d-none d-md-block col-2">
-            <a class="light-text" href="#references"> REFERENCES <i class="fa fa-caret-down"></i></a>
-        </li>
-        <li class="d-none d-md-block col-2">
-            <a class="light-text" href="#examples"> EXAMPLES <i class="fa fa-caret-down"></i>
-        </li></a>
-        <li class="col-1">
-            <a class="light-text" href="#globe"><i class="fa fa-globe"></i></a>
-        </li>
-        <li class="col-1">
-            <a class="light-text" href="#search"><i class="fa fa-search"></i></a>
-        </li>
-      </ul> -->
-      <a class="d-none d-md-block" href="#tutorials"> TUTORIALS <i class="fa fa-caret-down"></i></a>
-      <a class="d-none d-md-block" href="#references"> REFERENCES <i class="fa fa-caret-down"></i></a>
-      <a class="d-none d-md-block" href="#examples"> EXAMPLES <i class="fa fa-caret-down"></i></a>
-      <a href="#globe"><i class="fa fa-globe"></i></a>
-      <a href="#search"><i class="fa fa-search"></i></a>
+		<nav class="row navbar clear-pad d-block">
+      <i id="menu-btn" class="fa fa-bars d-inline-block d-md-none"></i>
+      <a class="d-none d-md-inline-block" href="#tutorials"> TUTORIALS <i class="fa fa-caret-down"></i></a>
+      <a class="d-none d-md-inline-block" href="#references"> REFERENCES <i class="fa fa-caret-down"></i></a>
+      <a class="d-none d-md-inline-block" href="#examples"> EXAMPLES <i class="fa fa-caret-down"></i></a>
+      <a class="float-right" href="#search"><i class="fa fa-search"></i></a>
+      <a class="float-right" href="#globe"><i class="fa fa-globe"></i></a>
     </nav>
 		<div class="row">
-      <div class="d-none d-md-block col-3">
-        <h2>HTML and CSS</h2>
-        <ul>
-            <li><a href="#learnhtml">Learn HTML</a></li>
-            <li><a href="#learncss">Learn CSS</a></li>
-            <li><a href="#learnw3css">Learn W3.CSS</a></li>
-            <li><a href="#learncolors">Learn Colors</a></li>
-            <li><a href="#learnbootstrap">Learn Bootstrap</a></li>
-        </ul>
-        <h2>JavaScript</h2>
-        <ul>
-          <li><a href="#learnjavascript">Learn JavaScript</a></li>
-          <li><a href="#learnjquery">Learn jQuery</a></li>
-          <li><a href="#learnjquerymobile">Learn jQueryMobile</a></li>
-          <li><a href="#learnappml">Learn AppML</a></li>
-          <li><a href="#learnangularjs">Learn AngularJS</a></li>
-          <li><a href="#learnjson">Learn JSON</a></li>
-        </ul>
-        <h2>HTML Graphics</h2>
-        <ul>
-          <li><a href="#learncanvas">Learn Canvas</a></li>
-          <li><a href="#learnsvg">Learn SVG</a></li>
-          <li><a href="#learnicons">Learn Icons</a></li>
-          <li><a href="#learngooglemaps">Learn Google Maps</a></li>
-          <li><a href="#learnhtmlgames">Learn HTML Games</a></li>
-        </ul>
-        <h2>Server Side</h2>
-        <ul>
-          <li><a href="#learnsql">Learn SQL</a></li>
-          <li><a href="#learnphp">Learn PHP</a></li>
-          <li><a href="#learnasp">Learn ASP</a></li>
-          <li><a href="#learnaspnet">Learn ASP.NET</a></li>
-        </ul>
-        <h2>Web Building</h2>
-        <ul>	
-          <li><a href="#learnwebbuilding">Web Building</a></li>
-          <li><a href="#learnwebstatistics">Web Statistics</a></li>
-          <li><a href="#learnwebcertificates">Web Certificates</a></li>
-        </ul>
-        <h2>XML Tutorials</h2>
-        <ul>
-          <li><a href="#learnxml">Learn XML</a></li>
-          <li><a href="#learnxslt">Learn XSLT</a></li>
-          <li><a href="#learnajax">Learn AJAX</a></li>
-        </ul>
+      <div id="side-menu" class="d-none d-md-block col-3 col-lg-2">
+        <h4>HTML and CSS</h4>
+        <a class="row" href="#learnhtml">Learn HTML</a>
+        <a class="row" href="#learncss">Learn CSS</a>
+        <a class="row" href="#learnw3css">Learn W3.CSS</a>
+        <a class="row" href="#learncolors">Learn Colors</a>
+        <a class="row" href="#learnbootstrap3">Learn Bootstrap 3</a>
+        <a class="row" href="#learnbootstrap4">Learn Bootstrap 4</a>
+        <a class="row" href="#learnicons">Icons</a>
+        <a class="row" href="#learngraphics">Graphics</a>
+        <a class="row" href="#learnhowto">Learn How To</a>
+  
+        <h4>JavaScript</h4>
+        <a class="row" href="#learnjavascript">Learn JavaScript</a>
+        <a class="row" href="#learnjquery">Learn jQuery</a>
+        <a class="row" href="#learnangularjs">Learn AngularJS</a>
+        <a class="row" href="#learnjson">Learn JSON</a>
+        <a class="row" href="#learnajax">Learn AJAX</a>
+  
+        <h4>Server Side</h4>
+        <a class="row" href="#learnsql">Learn SQL</a>
+        <a class="row" href="#learnphp">Learn PHP</a>
+        <a class="row" href="#learnasp">Learn ASP</a>
+        <a class="row" href="#learnnodejs">Learn Node.js</a>
+        <a class="row" href="#learnrasppi">Learn Raspberry Pi</a>
+  
+        <h4>Web Building</h4>
+        <a class="row" href="#learnwebbuilding">Web Building</a>
+        <a class="row" href="#learnwebstatistics">Web Statistics</a>
+        <a class="row" href="#learnwebcertificates">Web Certificates</a>
+  
+        <h4>XML Tutorials</h4>
+        <a class="row" href="#learnxml">Learn XML</a>
+        <a class="row" href="#learnxmlajax">Learn XML AJAX</a>
+        <a class="row" href="#learnxmldom">Learn XML DOM</a>
+        <a class="row" href="#learnxmldtd">Learn XML DTD</a>
+        <a class="row" href="#learnxmlschema">Learn XML Schema</a>
+        <a class="row" href="#learnxslt">Learn XSLT</a>
+        <a class="row" href="#learnxpath">Learn XPath</a>
+        <a class="row" href="#learnxquery">Learn XQuery</a>
+  
       </div>
-      <div class="col-9">
-        <div class="row">
-          <div class="col-6">
+      <div class="col-12 col-md-9 col-lg-10">
+        <div class="row line">
+          <div class="col-12 col-lg-6 box">
             <h1>HTML</h1>
             <p>The language for building web pages</p>
-            <div class="grey-btn"><a href="#learnhtml">LEARN HTML</a></div>
-            <div class="grey-btn"><a href="#htmlreference">HTML REFERENCE</a></div>
+            <div class="btn grey-btn"><a href="#learnhtml">LEARN HTML</a></div>
+            <div class="btn grey-btn"><a href="#htmlreference">HTML REFERENCE</a></div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6 d-none d-sm-block box">
             <div>
               <h3>HTML Example:</h3>
               <div class="code">
@@ -125,12 +105,12 @@
                 <br>
                 <span class="blue"><</span><span class="brown">/html</span><span class="blue">></span>
               </div>
-              <div class="green-btn"><a href="#tryityourself">Try it Yourself</a></div>
+              <div class="btn green-btn"><a href="#tryityourself">Try it Yourself</a></div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6">
+        <div class="row line grey-back">
+          <div class="col-12 col-lg-6 d-none d-sm-block box">
             <div>
               <h3>CSS Example:</h3>
               <div class="code">
@@ -164,24 +144,24 @@
                 <br>
                 <span>}</span>
               </div>
-              <div class="green-btn"><a href="#tryityourself">Try it Yourself</a></div>
+              <div class="btn green-btn"><a href="#tryityourself">Try it Yourself</a></div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6 box">
             <h1>CSS</h1>
             <p>The language for styling web pages</p>
-            <div class="grey-btn"><a href="learncss">LEARN CSS</a></div>
-            <div class="grey-btn"><a href="#cssreference">CSS REFERENCE</a></div>
+            <div class="btn grey-btn"><a href="learncss">LEARN CSS</a></div>
+            <div class="btn grey-btn"><a href="#cssreference">CSS REFERENCE</a></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6">
+        <div class="row line">
+          <div class="col-12 col-lg-6 box">
             <h1>JavaScript</h1>
             <p>The language for programming web pages</p>
-            <div class="grey-btn"><a href="#learnjavascript">LEARN JAVASCRIPT</a></div>
-            <div class="grey-btn"><a href="#javascriptreference">JAVASCRIPT REFERENCE</a></div>
+            <div class="btn grey-btn"><a href="#learnjavascript">LEARN JAVASCRIPT</a></div>
+            <div class="btn grey-btn"><a href="#javascriptreference">JAVASCRIPT REFERENCE</a></div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6 d-none d-sm-block box">
             <div>
               <h3>JavaScript Example:</h3>
               <div class="code">
@@ -205,51 +185,60 @@
               <span class="blue"><</span><span class="brown">button</span>
               <span class="red">onclick=</span><span class="mediumblue">"myFunction()"</span><span class="blue">></span><span>Click Me!</span><span class="blue"><</span><span class="brown">/button</span><span class="blue">></span>
               </div>
-              <div class="green-btn"><a href="#tryityourself">Try it Yourself</a></div>
+              <div class="btn green-btn"><a href="#tryityourself">Try it Yourself</a></div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-4">
-            <div>
+        <div class="row line grey-back">
+          <div class="col-12 col-lg-4 box">
+            <div class="white-box">
             <h2>SQL</h2>
             <p>A language for accessing databases</p>
-            <div class="btn"><a href="#learnsql">LEARN SQL</a></div>
+            <div class="btn grey-btn"><a href="#learnsql">LEARN SQL</a></div>
             </div>
           </div>
-          <div class="col-4">
-            <div>
+          <div class="col-12 col-lg-4 box">
+            <div class="white-box">
             <h2>PHP</h2>
             <p>A web server programming language</p>
-            <div class="grey-btn"><a href="#learnphp">LEARN PHP</a></div>
+            <div class="btn grey-btn"><a href="#learnphp">LEARN PHP</a></div>
             </div>
           </div>
-          <div class="col-4">
-            <div>
+          <div class="col-12 col-lg-4 box">
+            <div class="white-box">
             <h2>jQuery</h2>
             <p>A JavaScript library for developing web pages</p>
-            <div class="grey-btn"><a href="#learnjquery">LEARN JQUERY</a></div>
+            <div class="btn grey-btn"><a href="#learnjquery">LEARN JQUERY</a></div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-4">
+        <div class="row line">
+          <div class="col-12 col-lg-4">
             <h2>W3.CSS</h2>
             <p>A modern CSSframework for fasterand bettter responsive sites</p>
-            <div class="grey-btn"><a href="#learnw3css">LEARN W3.CSS</a></div>
+            <div class="btn grey-btn"><a href="#learnw3css">LEARN W3.CSS</a></div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <h2>Color Picker</h2>
             <a href="#colorpicker"><img src="http://www.w3schools.com/colors/img_colormap.gif"></a>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <h2>Bootstrap</h2>
             <p>Bootstrap is a CSS framework for designing better web pages</p>
-            <div class="grey-btn"><a href="#learnbootstrap">LEARN BOOTSTRAP</a></div>
+            <div class="btn grey-btn"><a href="#learnbootstrap">LEARN BOOTSTRAP</a></div>
           </div>
         </div>
+        <div class="row line grey-back">
+          <h1>Web Templates</h1>
+          <div class="btn grey-btn"><a href="#browsetemplates">BROWSE TEMPLATES</a></div>
+        </div>
+        <div class="row line">
+            <h1>Web Certificates</h1>
+            <div class="btn green-btn"><a href="#getcertified">Get Certified</a></div>
+        </div>
         <div class="row">
-          <div class="grey-btn"><a href="#webcertificates">WEB CERTIFICATES</a></div>
+          <div class="btn light-btn"><a href="#webcertificates">WEB CERTIFICATES</a></div>
+          <div class="btn light-btn"><a href="#quizzes">QUIZZES</a></div>
           <div><a href="#forum">FORUM</a> | <a href="#about">ABOUT</a></div>
           <p>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.<br><a href="#copyright">Copyright 1999-2016</a> by Refsnes Data. All Rights Reserved.<br><br></p>
           <i class="fa fa-thumbs-o-up"><a href="#facebook"></a></i>

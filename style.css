@@ -1,6 +1,21 @@
 body {
-  font-family: "Segoe UI",Arial,sans-serif;
+  font-family: Verdana,sans-serif;
   font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  color: #555555;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 10px;
 }
 
 nav {
@@ -10,13 +25,22 @@ nav {
 
 nav a {
   color: white;
+  letter-spacing: 4px;
+  font-size: 17px;
+  font-family: "Segoe UI",Arial,sans-serif;
+
+  padding: 16px; 
+}
+
+nav i {
+  font-size: 20px !important;
 }
 
 nav a:hover {
-  color: white;
+  color: black;
   text-decoration: none;
   background-color: white;
-  
+
 }
 
 ul{
@@ -27,8 +51,45 @@ li {
   text-decoration: none;
 }
 
+p {
+  font-size: 24px;
+}
+
 #intro {
-  margin-top: 35px;
+  margin-top: 10px;
+  padding: 16px;
+}
+
+#menu-btn {
+  color: white;
+  padding: 16px; 
+}
+
+#menu-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+#slogan {
+  letter-spacing: 4px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#side-menu {
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 2px 4px 0px, rgba(0, 0, 0, 0.117647) 0px 2px 10px 0px;
+}
+
+#side-menu a {
+  font-size: 16px;
+  color: black;
+
+  padding: 0 16px;
+}
+
+#side-menu a:hover {
+  background-color: #cccccc;
+  text-decoration: none;
 }
 
 .clear-pad {
@@ -49,6 +110,10 @@ li {
 	color: brown;
 }
 
+.grey-back {
+  background-color: #f1f1f1;
+}
+
 .code {
 	border-left: 4px solid #4CAF50;
 	background-color: white;
@@ -60,16 +125,56 @@ li {
 	line-height: 1.4;
 }
 
+.box {
+  text-align: center;
+  padding: 3%;
+}
+
+.white-box {
+  background-color: white;
+  padding: 16px;
+}
+
+.line {
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.btn a {
+  color: white;
+}
+
+.btn a:hover {
+  text-decoration: none;
+}
+
 .grey-btn {
   background-color: #616161;
 }
-.grey-btn a {
-  color: white;
+
+.grey-btn:hover {
+  background-color: #ccc;
+}
+
+.grey-btn a:hover {
+  color: black;
 }
 
 .green-btn {
   background-color: #00b852;
 }
-.green-btn a {
-  color: white;
+
+.green-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.light-btn {
+  background-color: #f1f1f1;
+}
+
+.light-btn a {
+  color: black;
 }
