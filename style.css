@@ -16,6 +16,16 @@ h4 {
   font-size: 20px;
   margin-top: 16px;
   margin-bottom: 10px;
+  line-height: 30px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 36px;
 }
 
 nav {
@@ -53,6 +63,7 @@ li {
 
 p {
   font-size: 24px;
+  margin: 24px 0;
 }
 
 #intro {
@@ -78,6 +89,7 @@ p {
 
 #side-menu {
   box-shadow: rgba(0, 0, 0, 0.156863) 0px 2px 4px 0px, rgba(0, 0, 0, 0.117647) 0px 2px 10px 0px;
+  z-index: 200;
 }
 
 #side-menu a {
@@ -122,7 +134,12 @@ p {
 	margin: 20px 0px;
 	padding: 12px 16px;
 	word-wrap: normal;
-	line-height: 1.4;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.row .grey-back .code {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 }
 
 .box {
@@ -133,6 +150,14 @@ p {
 .white-box {
   background-color: white;
   padding: 16px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+  height: 250px;
+}
+
+.grey-box {
+  background-color: #f1f1f1;
+  padding: 16px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 }
 
 .line {
@@ -141,6 +166,7 @@ p {
 
 .btn {
   border-radius: 0px;
+  margin: 5px;
 }
 
 .btn a {
@@ -177,4 +203,8 @@ p {
 
 .light-btn a {
   color: black;
+}
+
+.row {
+  padding-bottom: 30px;
 }
