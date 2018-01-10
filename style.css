@@ -26,6 +26,7 @@ h3 {
 
 h5 {
   font-size: 36px;
+  margin: 0;
 }
 
 nav {
@@ -104,6 +105,21 @@ p {
   text-decoration: none;
 }
 
+#color-picker {
+  width: 150px;
+  height: 128px;
+  margin: 20px 10px;
+}
+
+#webtemp-image {
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+#web-cert {
+  background-image: url("https://www.w3schools.com/getcertified.jpg");
+}
+
 .clear-pad {
   padding: 0 !important;
 }
@@ -143,7 +159,7 @@ p {
 }
 
 .box {
-  text-align: center;
+  text-align: center !important;
   padding: 3%;
 }
 
@@ -205,6 +221,6 @@ p {
   color: black;
 }
 
-.row {
+.row:not(main) {
   padding-bottom: 30px;
 }
