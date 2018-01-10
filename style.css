@@ -67,6 +67,26 @@ p {
   margin: 24px 0;
 }
 
+footer {
+  background-color: #616161;
+  color: white;
+}
+
+footer a {
+  color: white;
+  letter-spacing: 4px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #00b852;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+}
+
 #intro {
   margin-top: 10px;
   padding: 16px;
@@ -120,6 +140,32 @@ p {
   background-image: url("https://www.w3schools.com/getcertified.jpg");
 }
 
+#get-cert-btn:hover {
+  background-color: #f1f1f1;
+  box-shadow: none;
+}
+
+#get-cert-btn a:hover {
+  color: black;
+}
+
+#footer-info a {
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+#thumbs-up {
+  font-size: 30px;
+}
+
+#thumbs-up:hover {
+  color: white;
+}
+
+#links {
+  padding: 15px;
+}
+
 .clear-pad {
   padding: 0 !important;
 }
@@ -154,6 +200,7 @@ p {
   text-align: left;
 }
 
+/* Only want a box shadow for code snippets when it is located in a row that has a grey background */
 .row .grey-back .code {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 }
@@ -217,10 +264,21 @@ p {
   background-color: #f1f1f1;
 }
 
+.light-btn:hover {
+  background-color: #cccccc;
+}
+
 .light-btn a {
+  color: black;
+  letter-spacing: normal;
+}
+
+.light-btn a:hover {
   color: black;
 }
 
+/* Use of not selector to add padding at bottom of every row except main element (for spacing purposes) 
+  This removes strange extra space at the bottom of the page */ 
 .row:not(main) {
   padding-bottom: 30px;
 }
